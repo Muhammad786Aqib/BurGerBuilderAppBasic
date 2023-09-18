@@ -11,25 +11,6 @@ pipeline {
                 }
             }
         }
-
-        stage('Test') {
-            steps {
-                // Define test steps here
-                echo 'Running tests...'
-                // You would typically run test commands here
-            }
-        }
-    }
-
-    post {
-        success {
-            // Actions to take if the pipeline is successful
-            echo 'Pipeline succeeded!'
-        }
-        failure {
-            // Actions to take if the pipeline fails
-            echo 'Pipeline failed!'
-        }
     }
 }
 
