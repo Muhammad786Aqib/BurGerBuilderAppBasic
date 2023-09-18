@@ -6,7 +6,9 @@ pipeline {
             steps {
                 // Define build steps here
                 echo 'Building the application...'
-                // You would typically run build commands here
+                nodejs('Node-10.17'){
+                sh 'yarn install'
+                }
             }
         }
 
