@@ -2,13 +2,19 @@ Project Overview
 Project is set up with the following key technologies and tools:
 
 React: A JavaScript library for building user interfaces.
-React Router: A routing library for React applications.
+
+React Router: A routing library for React applications
+
 Axios: A promise-based HTTP client for making network requests.
+
 Webpack: A static module bundler for modern JavaScript applications.
+
 Babel: A JavaScript compiler for converting modern JavaScript code into code that can run in older environments.
+
 ESLint: A linter tool for identifying and fixing problems in your JavaScript code.
+
 Jest: A testing framework for JavaScript code.
-And more!
+
 Getting Started
 To get started with this project, follow these steps:
 
